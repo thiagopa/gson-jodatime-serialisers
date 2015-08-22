@@ -45,7 +45,7 @@ import java.lang.reflect.Type;
 public class LocalTimeConverter implements JsonSerializer<LocalTime>, JsonDeserializer<LocalTime>
 {
   /** Format specifier */
-  private static final String PATTERN = "HH:mm:ss.SSS";
+  private static final String PATTERN = "HH:mm:ss";
 
   /**
    * Gson invokes this call-back method during serialization when it encounters a field of the
